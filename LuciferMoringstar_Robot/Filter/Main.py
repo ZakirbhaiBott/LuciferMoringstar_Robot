@@ -88,29 +88,17 @@ async def filter(client, message):
                 await message.reply_photo(photo=poster, caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
             else:
                 Send_message=await bot.send_video(
-
                 chat_id=update.chat.id,
-
                 video="https://telegra.ph/file/c2c0ff4b927dcc50e7922.mp4",
-
-                caption=f"Couldn't Find This Movie.Please Try Again Or Search Google.
-
-                 \n\n"
-
+                caption=f"Couldn't Find This Movie.Please Try Again Or Search Google Or Not Get Movie Report Admins👉"
+                        f"<b><a href='https://t.me/Myk123'>👉Admin</a></b>. \n\n"
                         f"ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക🔍കൂടുതൽ അറിയാൻ വീഡിയോ കാണുക(25 Sec)",
-
                 parse_mode="html",
-
                 reply_markup=InlineKeyboardMarkup(
-
             [
-
                 [
-
                     InlineKeyboardButton(
-
-                        "🔍 Google 🔎", url=f"https://www.google.com/search?q={search}movie" 
-
+                        "🔎 Google 🔍", url=f"https://www.google.com/search?q={search}movie" 
                     )
 
             else:
@@ -202,7 +190,7 @@ async def group(client, message):
 
                         "🔍 Google 🔎", url=f"https://www.google.com/search?q={search}movie" 
 
-                    )
+                    )gffgg
             else:
                 await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
             return
