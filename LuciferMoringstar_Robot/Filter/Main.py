@@ -90,9 +90,9 @@ async def filter(client, message):
 
             else:
                 await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
-                else:
+                
 
-                await Send_message=await bot.send_video(
+                Send_message=await bot.send_video(
 
                 chat_id=update.chat.id,
 
@@ -182,9 +182,9 @@ async def group(client, message):
             
             else:
                 await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
-                    else:
+                 
 
-                 await Send_message=await bot.send_video(
+                 Send_message=await bot.send_video(
 
                 chat_id=update.chat.id,
 
